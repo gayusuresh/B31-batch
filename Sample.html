@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+     <input type="number" id="mark1" onkeyup="validateMark1()">
+<p id="error1"></p>
+
+<input type="number" id="mark2" onkeyup="validateMark2()">
+<p id="error2"></p>
+
+<input type="number" id="mark3" onkeyup="validateMark3()">
+<p id="error3"></p>
+
+<input type="number" id="mark4" onkeyup="validateMark4()">
+<p id="error4"></p>
+
+<input type="number" id="mark5" onkeyup="validateMark5()">
+<p id="error5"></p>
+        <div>
+            <button type="button" id="grade" class="btn" onclick="getGrade()">Grade</button>
+        </div>
+        <div id="Result">
+            <p class="total"></p>
+            <p class="grade"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
